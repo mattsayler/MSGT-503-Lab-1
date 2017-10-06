@@ -1,0 +1,64 @@
+body {
+    background-color: AliceBlue;
+    margin: 0;
+    padding: 0;
+
+}
+
+div#container {
+    margin: 0 15% 0 15%;
+}
+
+div#map {
+    height:300px;
+    max-height: 50%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px Grey;
+    padding: 6px;
+    color: DimGrey;
+}
+
+h1 {
+    color: MidnightBlue;
+    text-align: center;
+}
+
+p {
+    background-color: Linen;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px Grey;
+    padding: 6px;
+    color: DimGrey;
+}
+
+nav {
+
+}
+
+
+ul#menu {
+    padding: 0;
+    margin-bottom: 11px;
+    text-align: center;
+}
+
+ul#menu li {
+    display: inline;
+    margin-right: 3px;
+    text-align: center;
+}
+
+ul#menu li a {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #696969;
+    border-radius: 4px 4px 0 0;
+    text-align: center;
+}
+
+ul#menu li a:hover {
+    color: SaddleBrown;
+    background-color: Beige;
+    text-align: center;
+}
