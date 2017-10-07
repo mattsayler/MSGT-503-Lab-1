@@ -3,7 +3,7 @@ function doTheThing(){
   var overlay = $("<div id='overlayDIV'></div>")
   
   $("button#nope").click(function(){
-    $("body").after(overlay).css({
+    $("div#container").before(overlay).css({
       'background-image':'url("Resources/static.gif")',
       'position':'fixed',
       'width':'100%',
