@@ -1,9 +1,6 @@
 function doTheThing(){
   
-  var overlay = $("<div id='overlayDIV'></div>")
-  
-  $("button#nope").click(function(){
-    $("div#container").before(overlay).css({
+  var overlay = $("<div id='overlayDIV'></div>").css({
       'background-image':'url("Resources/static.gif")',
       'position':'fixed',
       'width':'100%',
@@ -12,6 +9,9 @@ function doTheThing(){
       'left':'0px',
       'z-index':'1000'
     });
+  
+  $("button#nope").click(function(){
+    $("div#container").before(overlay)
   });
 
   $("div#overlayDIV").click(function() {
