@@ -15,7 +15,7 @@ function doTheThing(){
     });
   });
 
-  $("div#overlayDIV").mouseUp(function() {
+  $("div#overlayDIV").click(function() {
     $(this).remove();
   });
   
