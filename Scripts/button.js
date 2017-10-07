@@ -14,9 +14,5 @@ function doTheThing(){
       'z-index':'1000'
     });
   });
-
-  $("body").click(function() {
-    $("div#overlayDIV").remove();
-  });
   
 };
