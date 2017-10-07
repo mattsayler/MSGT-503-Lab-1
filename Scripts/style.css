@@ -40,11 +40,11 @@ p {
 }
 
 ul#menu li.left {
-    border-top-left-radius: 3px;
+    border-top-left-radius: 5px;
 }
 
 ul#menu li.right {
-    border-top-right-radius: 3px;
+    border-top-right-radius: 5px;
 }
 
 ul#menu {
