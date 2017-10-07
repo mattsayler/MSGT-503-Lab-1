@@ -1,8 +1,8 @@
 document.getElementById("nav01").innerHTML =
 "<ul id='menu'>" +
-"<li><a href='index.html'>Home</a></li>" +
+"<li class="left"><a href='index.html'>Home</a></li>" +
 "<li><a href='about.html'>About</a></li>" +
-"<li><a href='lab1.html'>Labs</a></li>" +
+"<li class="right"><a href='lab1.html'>Labs</a></li>" +
 "</ul>";
 
 var map = L.map('map',).setView([47.246650, -122.438894],16);
