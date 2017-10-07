@@ -2,7 +2,7 @@ function doTheThing(){
   
   var overlay = $("<div id='overlayDIV'></div>")
   
-  $("button#nope").click(function(){
+  $("button#nope").click(function() {
     $("div#container").before(overlay);
     $("div#overlayDIV").css({
       'background-image':'url("Resources/static.gif")',
@@ -16,7 +16,7 @@ function doTheThing(){
   });
 
   $("div#overlayDIV").click(function() {
-    $("div#overlayDIV").remove();
+    $(this).remove();
   });
   
 };
