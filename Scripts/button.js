@@ -5,7 +5,7 @@ function doTheThing(){
   $("button#nope").click(function() {
     $("div#container").before(overlay);
     $("div#overlayDIV").css({
-      'background-image':'url("Resources/static.gif")',
+      'background-image':'url("Resources/MatrixCode.gif")',
       'position':'fixed',
       'width':'100%',
       'height':'100%',
