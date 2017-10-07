@@ -28,13 +28,17 @@ p {
     border-radius: 5px;
     box-shadow: 3px 3px 2px Grey;
     padding: 6px;
+    margin-top: 6px;
     color: DimGrey;
 }
 
-nav {
-
+ul#menu li.left {
+    border-top-left-radius: 3px;
 }
 
+ul#menu li.right {
+    border-top-right-radius: 3px;
+}
 
 ul#menu {
     padding: 0;
