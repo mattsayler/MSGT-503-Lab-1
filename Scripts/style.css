@@ -12,10 +12,13 @@ div#container {
 div#map {
     height:300px;
     max-height: 50%;
-    border-radius: 5px;
     box-shadow: 3px 3px 2px Grey;
     padding: 6px;
     color: DimGrey;
+}
+
+#map > div {
+    border-radius: 5px;
 }
 
 h1 {
