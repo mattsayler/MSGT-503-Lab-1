@@ -1,6 +1,6 @@
 function doTheThing(){
   
-  var overlay = $("<div id='overlayDIV'></div>")
+  var overlay = $("<div id='overlayDIV'></div>");
   
   $("button#nope").click(function() {
     $("div#container").before(overlay);
@@ -15,7 +15,7 @@ function doTheThing(){
     });
   });
 
-  $("div#overlayDIV").mouseUp(function() {
+  $("div#overlayDIV").click(function() {
     $(this).remove();
   });
   
