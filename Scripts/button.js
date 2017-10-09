@@ -15,7 +15,14 @@ function doTheThing(){
     });
   });
   
+//$("#overlayDIV").on("click","div", function() {
+//    console.log("I hear you");
+//    $(this).remove(); 
+//});
 
+$(document).on("click", "div", function() {
+  console.log("I hear you");
+});
   
 };
 
