@@ -13,7 +13,11 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 
 L.marker([47.246650, -122.438894]).addTo(map);
 
-$("#overlayDIV").on("click","div", function() {
-    console.log("I hear you");
-    $(this).remove(); 
+//$("#overlayDIV").on("click","div", function() {
+//    console.log("I hear you");
+//    $(this).remove(); 
+//});
+
+$("div").on("click", "div", function() {
+  console.log("I hear you");
 });
