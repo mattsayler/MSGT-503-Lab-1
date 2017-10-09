@@ -9,7 +9,7 @@ document.getElementById("nav01").innerHTML =
 // Basic Leaflet map
 var map = L.map('map',).setView([47.246650, -122.438894],16);
 
-L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
