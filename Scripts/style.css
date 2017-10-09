@@ -1,4 +1,4 @@
-// General page style \\
+/* General page style */
 body {
     background-color: AliceBlue;
     margin: 0;
@@ -24,7 +24,7 @@ p {
     color: DimGrey;
 }
 
-// Map container style \\
+/* Map container style */
 
 div#map {
     height:300px;
@@ -34,7 +34,7 @@ div#map {
     color: DimGrey;
 }
 
-// Nav menu style \\
+/* Nav menu style */
 
 
 ul#menu {
