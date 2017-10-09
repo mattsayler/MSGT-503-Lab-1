@@ -15,8 +15,8 @@ function doTheThing(){
     });
   });
   
-  $("div#overlayDIV").on("click","#overlay", function() {
-      $(this).closest(div).remove();
+  $("div#overlayDIV").on("click","div#overlayDIV", function() {
+      $(this).remove();
   });
 
 };
