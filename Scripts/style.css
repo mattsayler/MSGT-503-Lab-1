@@ -36,12 +36,12 @@ div#map {
 
 /* Nav menu style */
 
-ul#menu li.left {
-    border-top-left-radius: 5px;
+ul#menu li.left a {
+    border-top-left-radius: 4px;
 }
 
-ul#menu li.right {
-    border-top-right-radius: 5px;
+ul#menu li.right a {
+    border-top-right-radius: 4px;
     margin-right: 0;
 }
 
