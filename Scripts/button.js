@@ -1,5 +1,6 @@
 function doTheThing(){
   
+  // add an overlay when button is pressed
   var overlay = $("<div id='overlayDIV' title='I warned you! (Click to return to the page)'></div>");
   
   $("button#nope").click(function() {
@@ -14,7 +15,8 @@ function doTheThing(){
       'z-index':'1000'
     });
   });
-  
+
+// remove the overlay when clicked
 $(document).on("click","div#overlayDIV", function() {
     //console.log("I hear you!");
     $(this).remove(); 
