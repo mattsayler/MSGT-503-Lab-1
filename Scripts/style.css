@@ -36,11 +36,20 @@ div#map {
 
 /* Nav menu style */
 
+ul#menu li.left {
+    border-top-left-radius: 5px;
+}
+
+ul#menu li.right {
+    border-top-right-radius: 5px;
+    margin-right: 0;
+}
 
 ul#menu {
     padding: 0;
     margin-bottom: 11px;
     text-align: center;
+    box-shadow: 1px 0px 1px Grey;
 }
 
 ul#menu li {
@@ -61,13 +70,4 @@ ul#menu li a:hover {
     color: SaddleBrown;
     background-color: Beige;
     text-align: center;
-}
-
-ul#menu li.left {
-    border-top-left-radius: 5px;
-}
-
-ul#menu li.right {
-    border-top-right-radius: 5px;
-    margin-right: 0;
 }
