@@ -1,6 +1,6 @@
 function doTheThing(){
   
-  var overlay = $("<div id='overlayDIV'></div>");
+  var overlay = $("<div id='overlayDIV' title='I warned you! (Click to return to the page)'></div>");
   
   $("button#nope").click(function() {
     $("div#container").before(overlay);
