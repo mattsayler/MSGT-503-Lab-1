@@ -15,7 +15,7 @@ function doTheThing(){
     });
   });
   
-$("#overlayDIV").on("click","div", function() {
+$(document).on("click","div#overlayDIV", function() {
     console.log("I hear you!");
     $(this).remove(); 
 });
