@@ -18,6 +18,6 @@ L.marker([47.246650, -122.438894]).addTo(map);
 //    $(this).remove(); 
 //});
 
-$(document).on("click", function() {
+$(document).on("click", "div", function() {
   console.log("I hear you");
 });
