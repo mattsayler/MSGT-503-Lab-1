@@ -55,7 +55,6 @@ ul#menu li {
     display: inline;
     margin-right: 2px;
     text-align: center;
-    box-shadow: 1px 0px 1px Grey;
 }
 
 ul#menu li a {
@@ -64,6 +63,7 @@ ul#menu li a {
     text-decoration: none;
     color: #696969;
     text-align: center;
+    box-shadow: 1px 0px 2px Grey;
 }
 
 ul#menu li a:hover {
